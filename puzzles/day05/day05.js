@@ -12,8 +12,8 @@ let array = instructionSet.split('\n');
 const instructionReader = ([itemCount, from, to]) => {
     let accumulator = [];
     for (let i = 0; i < itemCount; i++) {
-        let poped = stackContainer[from - 1].pop();
-        accumulator.push(poped);
+        let popped = stackContainer[from - 1].pop();
+        accumulator.push(popped);
     }
     //   accumulator.reverse(); //PART 2. FOR PART 1 REMOVE THIS LINE
 };
